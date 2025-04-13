@@ -6,12 +6,12 @@ export default function About() {
         
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-2xl font-semibold mb-4">Your Premier Wedding Planning Partner</h2>
+            <h2 className="text-2xl font-semibold mb-4">Your Trusted Construction & Engineering Partner</h2>
             <p className="text-gray-600 mb-4">
-              With years of experience in creating magical wedding celebrations, we understand that every couple's story is unique. Our dedicated team of wedding planners works tirelessly to bring your vision to life.
+              With years of experience in delivering high-quality construction and engineering projects, we understand that every client's needs are unique. Our dedicated team of professionals works tirelessly to bring your vision to life.
             </p>
             <p className="text-gray-600 mb-4">
-              We pride ourselves on attention to detail, personalized service, and creating unforgettable moments that you'll cherish forever.
+              We pride ourselves on attention to detail, quality craftsmanship, and creating durable structures that stand the test of time.
             </p>
           </div>
           <div className="bg-gray-200 rounded-lg h-80" />
@@ -22,16 +22,16 @@ export default function About() {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                title: 'Experience',
-                description: 'Years of expertise in wedding planning and coordination'
+                title: 'Expertise',
+                description: 'Years of experience in construction and civil engineering'
               },
               {
-                title: 'Personalization',
-                description: 'Customized solutions tailored to your unique vision'
+                title: 'Quality',
+                description: 'Premium materials and superior craftsmanship on every project'
               },
               {
-                title: 'Dedication',
-                description: 'Committed to making your special day perfect'
+                title: 'Reliability',
+                description: 'On-time delivery and transparent project management'
               }
             ].map((item) => (
               <div key={item.title} className="p-6 bg-gray-50 rounded-lg">

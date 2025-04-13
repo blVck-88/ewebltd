@@ -61,7 +61,7 @@ export default function Contact() {
             <div className="space-y-6">
               <div>
                 <h3 className="text-lg font-medium mb-2">Address</h3>
-                <p className="text-gray-600">123 Wedding Street<br />City, State 12345</p>
+                <p className="text-gray-600">123 Construction Avenue<br />City, State 12345</p>
               </div>
               <div>
                 <h3 className="text-lg font-medium mb-2">Phone</h3>
@@ -69,13 +69,13 @@ export default function Contact() {
               </div>
               <div>
                 <h3 className="text-lg font-medium mb-2">Email</h3>
-                <p className="text-gray-600">info@eastwedding.com</p>
+                <p className="text-gray-600">info@eastkenengineering.com</p>
               </div>
               <div>
                 <h3 className="text-lg font-medium mb-2">Business Hours</h3>
                 <p className="text-gray-600">
-                  Monday - Friday: 9:00 AM - 6:00 PM<br />
-                  Saturday: 10:00 AM - 4:00 PM<br />
+                  Monday - Friday: 8:00 AM - 5:00 PM<br />
+                  Saturday: By appointment<br />
                   Sunday: Closed
                 </p>
               </div>

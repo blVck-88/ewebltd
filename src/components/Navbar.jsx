@@ -18,7 +18,7 @@ export default function Navbar() {
               <img
                 className="h-10 w-auto"
                 src="/images/logo.svg"
-                alt="East Wed Logo"
+                alt="EastKen Engineering Logo"
               />
             </Link>
           </div>

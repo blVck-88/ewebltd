@@ -1,28 +1,28 @@
 export default function FAQ() {
   const faqs = [
     {
-      question: 'How far in advance should I book your services?',
-      answer: 'We recommend booking our services 12-18 months before your wedding date for full planning services. For day-of coordination, 6-8 months in advance is recommended.'
+      question: 'How long does a typical construction project take?',
+      answer: 'Project timelines vary based on scope and complexity. Residential renovations may take 2-6 months, while new commercial construction can range from 6-18 months. We provide detailed timelines during the consultation phase.'
     },
     {
-      question: 'What is included in your full planning package?',
-      answer: 'Our full planning package includes vendor selection and management, budget planning, timeline creation, design consultation, RSVP management, and day-of coordination.'
+      question: 'What types of projects does your company handle?',
+      answer: 'We specialize in residential construction, commercial buildings, renovations, and civil engineering projects. Our team has expertise in new builds, remodeling, additions, and infrastructure development.'
     },
     {
-      question: 'Do you work with a minimum budget?',
-      answer: 'While we can accommodate various budgets, we typically work with weddings starting from $25,000 to ensure we can deliver the quality and service our clients expect.'
+      question: 'Do you provide free estimates?',
+      answer: 'Yes! We offer complimentary consultations and estimates for all potential projects. Our team will assess your needs and provide a detailed quote based on your specifications.'
     },
     {
-      question: 'Can I customize my wedding planning package?',
-      answer: 'Yes! We understand that every wedding is unique. We offer customizable packages to meet your specific needs and preferences.'
+      question: 'Are you licensed and insured?',
+      answer: 'Absolutely. EastKen Engineering Solutions is fully licensed, bonded, and insured. We maintain all necessary certifications and comply with local building codes and regulations.'
     },
     {
-      question: 'How do you handle vendor selection?',
-      answer: 'We provide curated vendor recommendations based on your style, budget, and preferences. We handle all communication and negotiations on your behalf.'
+      question: 'How do you handle project management?',
+      answer: 'Each project is assigned a dedicated project manager who oversees all aspects from planning to completion. They serve as your main point of contact and ensure quality, timeline, and budget adherence.'
     },
     {
-      question: 'What happens if there are last-minute changes?',
-      answer: 'Our team is experienced in handling last-minute changes. We have contingency plans and maintain flexibility to ensure your wedding day runs smoothly.'
+      question: 'What warranties do you offer on your work?',
+      answer: 'We stand behind our craftsmanship with comprehensive warranties. Typically, we provide a 1-year warranty on workmanship and pass through all manufacturer warranties on materials and systems installed.'
     }
   ]
 
@@ -43,7 +43,7 @@ export default function FAQ() {
 
           <div className="mt-12 text-center">
             <h2 className="text-2xl font-semibold mb-4">Still Have Questions?</h2>
-            <p className="text-gray-600 mb-8">Contact us for more information about our wedding planning services.</p>
+            <p className="text-gray-600 mb-8">Contact us for more information about our construction and engineering services.</p>
             <button className="bg-blue-900 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-blue-800 transition-colors">
               Contact Us
             </button>

@@ -1,19 +1,19 @@
 export default function Services() {
   const services = [
     {
-      title: 'Full Wedding Planning',
-      description: 'Comprehensive planning from start to finish, including vendor coordination, budget management, and timeline creation.',
-      features: ['Vendor Selection', 'Budget Management', 'Timeline Planning', 'Day-of Coordination']
+      title: 'Residential Construction',
+      description: 'Complete residential building services from foundation to finishing, delivering quality homes that stand the test of time.',
+      features: ['New Home Construction', 'Home Renovations', 'Additions & Extensions', 'Custom Home Design']
     },
     {
-      title: 'Partial Planning',
-      description: 'Perfect for couples who have started planning but need professional guidance to complete their vision.',
-      features: ['Vendor Recommendations', 'Timeline Review', 'Month-of Coordination', 'Wedding Day Management']
+      title: 'Commercial Projects',
+      description: 'Professional commercial construction services for businesses of all sizes, from office buildings to retail spaces.',
+      features: ['Office Buildings', 'Retail Spaces', 'Industrial Facilities', 'Project Management']
     },
     {
-      title: 'Day-of Coordination',
-      description: 'Ensures your wedding day runs smoothly while you focus on enjoying every moment.',
-      features: ['Vendor Coordination', 'Timeline Execution', 'Setup Supervision', 'Emergency Management']
+      title: 'Civil Engineering',
+      description: 'Expert civil engineering solutions for infrastructure projects, ensuring structural integrity and compliance.',
+      features: ['Infrastructure Development', 'Structural Engineering', 'Site Planning', 'Regulatory Compliance']
     }
   ]
 
@@ -45,8 +45,8 @@ export default function Services() {
         </div>
 
         <div className="mt-16 text-center">
-          <h2 className="text-2xl font-semibold mb-4">Need a Custom Package?</h2>
-          <p className="text-gray-600 mb-8">Contact us to create a personalized wedding planning package that fits your needs.</p>
+          <h2 className="text-2xl font-semibold mb-4">Need a Custom Solution?</h2>
+          <p className="text-gray-600 mb-8">Contact us to discuss your specific construction or engineering requirements.</p>
           <button className="bg-blue-900 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-blue-800 transition-colors">
             Contact Us
           </button>

@@ -1,40 +1,40 @@
 export default function Portfolio() {
   const portfolioItems = [
     {
-      title: 'Elegant Garden Wedding',
-      description: 'A beautiful outdoor celebration featuring natural elements and romantic details.',
-      date: 'Spring 2023',
-      category: 'Garden Weddings'
+      title: 'Modern Office Complex',
+      description: 'A state-of-the-art commercial office building with sustainable design features.',
+      date: 'Completed 2023',
+      category: 'Commercial Construction'
     },
     {
-      title: 'Modern City Celebration',
-      description: 'Sophisticated urban wedding with contemporary design and stunning city views.',
-      date: 'Summer 2023',
-      category: 'Urban Weddings'
+      title: 'Luxury Residential Development',
+      description: 'High-end residential community with custom homes and premium amenities.',
+      date: 'Completed 2023',
+      category: 'Residential Construction'
     },
     {
-      title: 'Rustic Barn Romance',
-      description: 'Charming countryside wedding with vintage touches and warm atmosphere.',
-      date: 'Fall 2023',
-      category: 'Rustic Weddings'
+      title: 'Highway Bridge Renovation',
+      description: 'Major infrastructure project involving structural reinforcement and expansion.',
+      date: 'Completed 2022',
+      category: 'Civil Engineering'
     },
     {
-      title: 'Beachside Ceremony',
-      description: 'Intimate beach wedding with coastal elements and sunset views.',
-      date: 'Summer 2023',
-      category: 'Beach Weddings'
+      title: 'Shopping Mall Expansion',
+      description: 'Retail space expansion with modern architectural elements and improved facilities.',
+      date: 'Completed 2023',
+      category: 'Commercial Construction'
     },
     {
-      title: 'Traditional Ballroom',
-      description: 'Classic ballroom wedding with elegant decor and timeless details.',
-      date: 'Winter 2023',
-      category: 'Traditional Weddings'
+      title: 'Industrial Warehouse Complex',
+      description: 'Large-scale industrial facility with advanced logistics infrastructure.',
+      date: 'Completed 2022',
+      category: 'Industrial Construction'
     },
     {
-      title: 'Destination Paradise',
-      description: 'Exotic destination wedding combining local culture with personal touches.',
-      date: 'Spring 2023',
-      category: 'Destination Weddings'
+      title: 'Community Center Renovation',
+      description: 'Complete renovation of public facility with accessibility improvements and modern amenities.',
+      date: 'Completed 2023',
+      category: 'Public Works'
     }
   ]
 
@@ -63,8 +63,8 @@ export default function Portfolio() {
         </div>
 
         <div className="mt-16 text-center">
-          <h2 className="text-2xl font-semibold mb-4">Let's Create Your Dream Wedding</h2>
-          <p className="text-gray-600 mb-8">Ready to start planning your perfect day? Contact us for a consultation.</p>
+          <h2 className="text-2xl font-semibold mb-4">Let's Build Your Next Project</h2>
+          <p className="text-gray-600 mb-8">Ready to start your construction project? Contact us for a consultation.</p>
           <button className="bg-blue-900 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-blue-800 transition-colors">
             Get Started
           </button>

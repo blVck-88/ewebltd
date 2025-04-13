@@ -53,7 +53,7 @@ export default function RequestQuote() {
             </div>
 
             <div>
-              <label htmlFor="eventDate" className="block text-sm font-medium text-gray-700 mb-1">Wedding Date</label>
+              <label htmlFor="eventDate" className="block text-sm font-medium text-gray-700 mb-1">Project Start Date</label>
               <input
                 type="date"
                 id="eventDate"
@@ -64,7 +64,7 @@ export default function RequestQuote() {
             </div>
 
             <div>
-              <label htmlFor="location" className="block text-sm font-medium text-gray-700 mb-1">Wedding Location</label>
+              <label htmlFor="location" className="block text-sm font-medium text-gray-700 mb-1">Project Location</label>
               <input
                 type="text"
                 id="location"
@@ -75,7 +75,7 @@ export default function RequestQuote() {
             </div>
 
             <div>
-              <label htmlFor="guestCount" className="block text-sm font-medium text-gray-700 mb-1">Estimated Guest Count</label>
+              <label htmlFor="guestCount" className="block text-sm font-medium text-gray-700 mb-1">Estimated Budget</label>
               <input
                 type="number"
                 id="guestCount"
@@ -94,10 +94,11 @@ export default function RequestQuote() {
                 required
               >
                 <option value="">Select a service</option>
-                <option value="full">Full Wedding Planning</option>
-                <option value="partial">Partial Planning</option>
-                <option value="day">Day-of Coordination</option>
-                <option value="custom">Custom Package</option>
+                <option value="residential">Residential Construction</option>
+                <option value="commercial">Commercial Projects</option>
+                <option value="civil">Civil Engineering</option>
+                <option value="renovation">Renovation</option>
+                <option value="custom">Custom Project</option>
               </select>
             </div>
 
