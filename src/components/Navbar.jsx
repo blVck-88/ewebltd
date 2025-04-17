@@ -17,7 +17,7 @@ export default function Navbar() {
             <Link to="/" className="flex-shrink-0 transition transform hover:scale-105">
               <img
                 className="h-10 w-auto"
-                src="/images/logo.svg"
+                src="/ewebltd/favicon.svg"
                 alt="EastKen Engineering Logo"
               />
             </Link>
