@@ -1,6 +1,6 @@
 export default function Portfolio() {
-  const portfolioItems = [
-    {
+ const portfolioItems = [
+   {
       title: 'Modern Office Complex',
       description: 'A state-of-the-art commercial office building with sustainable design features.',
       date: 'Completed 2023',
@@ -43,6 +43,7 @@ export default function Portfolio() {
       <div className="max-w-7xl mx-auto px-4 py-16">
         <h1 className="text-4xl font-bold text-center mb-12">Our Portfolio</h1>
 
+        {/* Portfolio grid temporarily disabled
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {portfolioItems.map((item) => (
             <div key={item.title} className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
@@ -65,6 +66,12 @@ export default function Portfolio() {
               </div>
             </div>
           ))}
+        </div>
+        */}
+
+        <div className="text-center py-12 bg-gray-50 rounded-lg shadow-sm mb-16">
+          <h2 className="text-2xl font-semibold text-blue-900 mb-4">Portfolio Grid Coming Soon</h2>
+          <p className="text-gray-600">Our portfolio section is currently under development. Check back soon to see our featured projects!</p>
         </div>
 
         <div className="mt-16 text-center">
