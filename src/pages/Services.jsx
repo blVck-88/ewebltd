@@ -3,6 +3,7 @@ export default function Services() {
     'Residential Construction': '/ewebltd/images/residential.png',
     'Commercial Projects': '/ewebltd/images/commercial.png',
     'Civil Engineering': '/ewebltd/images/civil.png',
+    'Water Works': '/ewebltd/images/water.png',
   };
 
   const services = [
@@ -19,7 +20,12 @@ export default function Services() {
     {
       title: 'Civil Engineering',
       description: 'Expert civil engineering solutions for infrastructure projects, ensuring structural integrity and compliance.',
-      features: ['Infrastructure Development', 'Structural Engineering', 'Site Planning', 'Regulatory Compliance']
+      features: ['Infrastructure Development', 'Structural Engineering', 'Site Planning', 'Regulatory Compliance'],
+    },
+    {
+      title: 'Water Works',
+      description: 'Comprehensive water-related services including water supply systems, drainage systems, and water treatment infrastructure.',
+      features: ['Water Supply Systems', 'Stormwater Drainage', 'Water Treatment Solutions', 'Pipeline Installation & Maintenance'],
     }
   ]
 

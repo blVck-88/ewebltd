@@ -61,11 +61,14 @@ export default function Contact() {
             <div className="space-y-6">
               <div>
                 <h3 className="text-lg font-medium mb-2">Address</h3>
-                <p className="text-gray-600">123 Construction Avenue<br />City, State 12345</p>
+                <p className="text-gray-600">SkyGo Building Mombasa RD,<br/> NAIROBI <br/></p>
               </div>
               <div>
                 <h3 className="text-lg font-medium mb-2">Phone</h3>
-                <p className="text-gray-600">(555) 123-4567</p>
+                <a href="tel:+254720908272" className="text-gray-600">
+                    +(254) 720 90 8272
+                </a>
+
               </div>
               <div>
                 <h3 className="text-lg font-medium mb-2">Email</h3>
