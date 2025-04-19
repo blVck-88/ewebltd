@@ -1,9 +1,12 @@
+import { Link } from 'react-router-dom';
+
 export default function Services() {
   const serviceImages = {
     'Residential Construction': '/ewebltd/images/residential.png',
     'Commercial Projects': '/ewebltd/images/commercial.png',
     'Civil Engineering': '/ewebltd/images/civil.png',
     'Water Works': '/ewebltd/images/water.png',
+    'Infiltration Wells': '/ewebltd/images/infil.png',
   };
 
   const services = [
@@ -16,16 +19,25 @@ export default function Services() {
       title: 'Commercial Projects',
       description: 'Professional commercial construction services for businesses of all sizes, from office buildings to retail spaces.',
       features: ['Office Buildings', 'Retail Spaces', 'Industrial Facilities', 'Project Management']
-    },
-    {
-      title: 'Civil Engineering',
-      description: 'Expert civil engineering solutions for infrastructure projects, ensuring structural integrity and compliance.',
-      features: ['Infrastructure Development', 'Structural Engineering', 'Site Planning', 'Regulatory Compliance'],
-    },
+    }
+    ,
     {
       title: 'Water Works',
       description: 'Comprehensive water-related services including water supply systems, drainage systems, and water treatment infrastructure.',
       features: ['Water Supply Systems', 'Stormwater Drainage', 'Water Treatment Solutions', 'Pipeline Installation & Maintenance'],
+    },
+    {
+      title: 'Infiltration Wells',
+      description: 'Efficient groundwater recharge solutions using infiltration wells to manage surface water runoff and enhance aquifer sustainability.',
+      features: [
+        'Groundwater Recharge','Surface Water Infiltration', 'Natural Filtration of Water', 'Sustainable Water Management', 'Flood Mitigation', 'Cost-Effective Water Storage Solution'
+      ],
+    },
+    
+    {
+      title: 'Civil Engineering',
+      description: 'Expert civil engineering solutions for infrastructure projects, ensuring structural integrity and compliance.',
+      features: ['Infrastructure Development', 'Structural Engineering', 'Site Planning', 'Regulatory Compliance'],
     }
   ]
 
@@ -56,9 +68,10 @@ export default function Services() {
                   </li>
                 ))}
               </ul>
+              <Link to="/contact">
               <button className="mt-6 w-full bg-blue-900 text-white py-2 rounded-lg hover:bg-blue-800 transition-colors">
                 Learn More
-              </button>
+              </button></Link>
             </div>
           ))}
         </div>
@@ -66,9 +79,11 @@ export default function Services() {
         <div className="mt-16 text-center">
           <h2 className="text-2xl font-semibold mb-4">Need a Custom Solution?</h2>
           <p className="text-gray-600 mb-8">Contact us to discuss your specific construction or engineering requirements.</p>
-          <button className="bg-blue-900 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-blue-800 transition-colors">
-            Contact Us
-          </button>
+          <Link to="/contact">
+            <button className="bg-blue-900 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-blue-800 transition-colors">
+              Contact Us
+            </button>
+          </Link>
         </div>
       </div>
     </div>

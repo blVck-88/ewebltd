@@ -40,7 +40,7 @@ export default function Home() {
       <section id="services" className="max-w-7xl mx-auto px-4 py-16">
         <h2 className="text-3xl font-bold text-center mb-12">Our Services</h2>
         <div className="grid md:grid-cols-3 gap-8">
-          {['Residential Construction', 'Commercial Projects', 'Civil Engineering', 'Water Works'].map((service) => {
+          {['Residential Construction', 'Commercial Projects','Water Works' ,'Civil Engineering' ].map((service) => {
             const descriptions = {
               'Residential Construction': 'Custom home building, renovations, and residential developments with attention to comfort and modern living standards.',
               'Commercial Projects': 'Full-service commercial construction including office buildings, retail spaces, and industrial facilities.',
